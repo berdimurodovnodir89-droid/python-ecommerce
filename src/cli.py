@@ -118,3 +118,4 @@ class CLI:
 
     def quit(self) -> None:
         cprint('Hayr!', 'green')
+        sys.exit()
